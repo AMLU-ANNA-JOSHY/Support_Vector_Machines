@@ -8,11 +8,12 @@ This repository contains notebooks related to Support Vector Machines (SVM). The
 - The mathematics leading to the margin formulation, how it is implemented as an optimization problem, and the role of the regularization parameter 'C' that determines whether the margin is 'hard' or 'soft' can also be found in detail with figures and derivations in the notebook.
 
 ## Implementations
-- SVM implementation using the scikit-learn library on common problems can be found in notebook-1 shared.
-- Visualization of the decision boundary, comparison against logistic regression, and importance of parameter C are also included in this notebook.
-- How non-linearity and multi-class problem are dealt in SVM are explained with project demos in notebook-2 shared.
-- The importance of hyperparameter tuning and approaches used with implementation can also be found in this notebook.
-- SVM can also be used for regression, whose implementation on the california housing dataset is included in notebook-3 shared.
+- SVM fundamentals and implementation using the scikit-learn library on common problems can be found in notebook-1 shared. Visualization of the decision boundary, comparison against logistic regression, and importance of parameter C are also included in this notebook.
+- How non-linearity is dealt in SVM using the kernel trick is explained with project demos in notebook-2 shared.
+- SVM can also be used for regression, whose implementation on the california housing dataset is included in notebook-3.
+- The importance of hyperparameter tuning and approaches used with implementation can be found in notebook-4 shared.
+- SVM implementation for multi-class problems is given in notebook-5.
+- All notebooks include explanations with citations, derivations by the author, and implementation of ML tasks with detailed analysis; all made in Google colab.
 
 ## Key Learnings
 ### SVM use cases:
