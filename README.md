@@ -9,8 +9,10 @@ This repository contains notebooks related to Support Vector Machines (SVM). The
 
 ## Implementations
 - SVM implementation using the scikit-learn library on common problems can be found in notebook-1 shared.
-- SVM implementation from scratch can be found in notebook-2 shared.
-- How non-linearity and multi-class problem are dealt in SVM are explained with project demos in notebook-3 shared.
+- Visualization of the decision boundary, comparison against logistic regression, and importance of parameter C are also included in this notebook.
+- How non-linearity and multi-class problem are dealt in SVM are explained with project demos in notebook-2 shared.
+- The importance of hyperparameter tuning and approaches used with implementation can also be found in this notebook.
+- SVM can also be used for regression, whose implementation on the california housing dataset is included in notebook-3 shared.
 
 ## Key Learnings
 ### SVM use cases:
