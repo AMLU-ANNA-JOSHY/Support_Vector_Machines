@@ -3,14 +3,14 @@
 This repository contains notebooks related to Support Vector Machines (SVM). The general ideas, math and intuition behind, as well as implementations from scratch and using the scikit-learn library can be found.
 
 ## Intuition and Mathematics
-- SVM is explained as a 'Maximum margin classifier'. I would like to picturize this as tying two rope boundaries to separate groups of cows from a group of sheeps. You try to maximize the gap between the two groups so that mixing is avoided, and finally draw a line right in the middle of the ropes. This line is the decision boundary of SVM, and the troublesome cows and sheeps touching the ropes and likely to mix up are the support vectors. So, the goal is to 'maximize the gap' or 'margin' for better classification. And the nearest samples or 'support vectors' influence the decision boundary.
-- The technical explanations of the keyterms as well as theoritical explanations can be found in the notebook-1 shared. 
+- SVM is explained as a 'Maximum margin classifier'. I would like to picturize this as tying two rope boundaries to separate a group of cows from a group of sheeps. You try to maximize the gap between the two groups so that mixing is avoided, and finally draw a line right in the middle of the ropes. This line is the decision boundary of SVM, and the troublesome cows and sheeps touching the ropes and likely to mix up are the support vectors. So, the goal is to 'maximize the gap' or 'margin' for better classification. And the nearest samples or 'support vectors' influence the decision boundary.
+- The technical explanations of the keyterms as well as theoritical explanations can be found in the ipynb notebook-1 shared. 
 - The mathematics leading to the margin formulation, how it is implemented as an optimization problem, and the role of the regularization parameter 'C' that determines whether the margin is 'hard' or 'soft' can also be found in detail with figures and derivations in the notebook.
 
 ## Implementations
-- SVM implementation from scratch can be found in notebook-2 shared.
 - SVM implementation using the scikit-learn library on common problems can be found in notebook-1 shared.
-- How non-linearity and multi-class problem are dealt in SVM is explained with project demos in notebook-3 shared.
+- SVM implementation from scratch can be found in notebook-2 shared.
+- How non-linearity and multi-class problem are dealt in SVM are explained with project demos in notebook-3 shared.
 
 ## Key Learnings
 ### SVM use cases:
